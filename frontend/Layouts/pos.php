@@ -4,7 +4,7 @@
 <?php include_once($frontpartials . 'head.php') ?>
 
 <body>
-  <div id="global-loader">
+  <div id="global-loader/">
     <div class="whirly-loader"></div>
   </div>
   <div class="main-wrappers">

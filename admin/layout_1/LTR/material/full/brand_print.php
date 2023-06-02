@@ -11,22 +11,24 @@ $slides = json_decode($dataslide, "ture");
     <tr style="background-color: #f2f2f2;">
 
 
-      <th >ID</th>
-      <th >Brand Image</th>
-      <th >Brand Name</th>
-      <th >Brand Code</th>
-      <th >Discription</th>
+      <th>ID</th>
+      <th>Brand Image</th>
+      <th>Brand Name</th>
+      <th>Brand Code</th>
+      <th>Discription</th>
       <th>Created by</th>
     </tr>
   </thead>
   <tbody style="text-align: center;">
     <?php
-    foreach ($slides as $key => $slide) :
-    ?>
+    foreach ($slides as $key => $slide):
+      ?>
       <!-- ...........1........... -->
       <tr>
 
-        <td ><?= $slide['id'] ?></td>
+        <td>
+          <?= $slide['id'] ?>
+        </td>
         <td style="width: 80px;">
           <div class="d-flex align-items-center">
             <div class="col-md-2">
@@ -37,15 +39,23 @@ $slides = json_decode($dataslide, "ture");
           </div>
         </td>
 
-        <td ><?= $slide['BrandName'] ?></td>
-        <td ><?= $slide['BrandCode'] ?></td>
-        <td ><?= $slide['Discription'] ?></td>
-        <td ><span class="badge badge-success"><?= $slide['Createdby'] ?></span></td>
+        <td>
+          <?= $slide['BrandName'] ?>
+        </td>
+        <td>
+          <?= $slide['BrandCode'] ?>
+        </td>
+        <td>
+          <?= $slide['Discription'] ?>
+        </td>
+        <td><span class="badge badge-success">
+            <?= $slide['Createdby'] ?>
+          </span></td>
 
       </tr>
-    <?php 
+    <?php
     endforeach
-     ?>
+    ?>
 
     <!-- ...............0.............. -->
   </tbody>

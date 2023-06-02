@@ -31,7 +31,7 @@
             "List Product": ".php",
             "Add Product": ".php",
             "Input Product": ".php",
-            "Catagory": ".php",
+            "Catagory": "catagorylist.php",
             "Sub Catagory": ".php",
             "Brand": "brand_list.php",
             "units": ".php",

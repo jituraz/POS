@@ -1,4 +1,10 @@
 {
+        "autoload": {
+            "psr-4": {
+                "POS\\SEIP12\\":"source/"
+            }
+        },
+
     "require": {
         "mpdf/mpdf": "^8.1"
     }

@@ -1,0 +1,29 @@
+[
+  {
+    
+    "uuid": "fruits",
+    "catagory": "fruits",
+    "code": "Accessories",
+    "src": "product62.png",
+    "caption": "Fruits",
+    "id": "1"
+  },
+  {
+    
+    "uuid": "Accessories",
+    "catagory": "Accessories",
+    "code": "Accessories",
+    "src": "product63.png",
+    "caption": "Accessories",
+    "id": "2"
+  },
+  {
+   
+    "uuid": "Shoes",
+    "catagory": "Shoes",
+    "code": "Accessories",
+    "src": "product65.png",
+    "caption": "Shoes",
+    "id": "3"
+  }
+]
