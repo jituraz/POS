@@ -106,6 +106,7 @@ $slides = json_decode($dataslide, "ture");
                   </span></td>
                 <td class="text-center">
                   <div class="list-icons">
+<<<<<<< HEAD
 
 
                     <button
@@ -119,6 +120,17 @@ $slides = json_decode($dataslide, "ture");
                     </button>
 
 
+=======
+                    
+                  <button class="btn btn-outline  bg-indigo-800 btn-icon text-indigo-800 border-indigo-800 border-1 rounded-round">
+                  <a href="grid_index.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-eye"></i></a>
+                  </button>
+                  <button class="btn btn-outline  bg-info-800 btn-icon text-info-800 border-secondary border-1 rounded-round">
+                    <a href="brand_edit.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-pencil7"></i></a>
+                  </button>
+                  
+                  
+>>>>>>> 37b7293bca8ce3bb2700ee82ae433a0347154f45
                     <form action="brand_delete.php" method="post">
                       <button type="submit"
                         class="btn btn-outline  bg-danger btn-icon  text-danger border-danger border-1 rounded-round"><i
@@ -137,6 +149,7 @@ $slides = json_decode($dataslide, "ture");
       <!-- /content area -->
 
       <!-- Footer -->
+<<<<<<< HEAD
       <div class="navbar navbar-expand-lg navbar-light">
         <div class="text-center d-lg-none w-100">
           <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse"
@@ -167,6 +180,9 @@ $slides = json_decode($dataslide, "ture");
           </ul>
         </div>
       </div>
+=======
+      <?php include_once($partials . 'footer.php') ?>
+>>>>>>> 37b7293bca8ce3bb2700ee82ae433a0347154f45
       <!-- /footer -->
     </div>
     <!-- /main content -->

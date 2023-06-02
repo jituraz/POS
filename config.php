@@ -37,6 +37,7 @@ function get_session($key){
     return null;
 }
 
+
 function flush_session($key){
     $value = get_session($key);
     $_SESSION[$key]='';
